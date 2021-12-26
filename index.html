@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper1">
+            <div class="chandelier first">
+                <div class="bulb"></div>
+            </div>
+        </div>
+        <div class="wrapper2">
+            <div class="chandelier second">
+                <div class="bulb"></div>
+            </div>
+        </div>
+        <div class="wrapper3">
+            <div class="chandelier third">
+                <div class="bulb"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            setInterval(function() {
+                document.querySelectorAll('.bulb').forEach((bulb) => bulb.classList.add('glow'));
+            }, 1000);
+            setInterval(function() {
+                document.querySelectorAll('.bulb').forEach((bulb) => bulb.classList.remove('glow'));
+            }, 5000);
+        });
+    </script>
+</body>
+
+</html>
