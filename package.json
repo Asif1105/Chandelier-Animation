@@ -1,0 +1,23 @@
+{
+  "name": "chandelier-animation",
+  "version": "1.0.0",
+  "description": "a simple css only animation for chandelier effect",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asif1105/Chandelier-Animation.git"
+  },
+  "keywords": [
+    "css",
+    "animation"
+  ],
+  "author": "Asif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asif1105/Chandelier-Animation/issues"
+  },
+  "homepage": "https://github.com/Asif1105/Chandelier-Animation#readme"
+}
