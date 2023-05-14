@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Asif1105/Chandelier-Animation/issues"
   },
-  "homepage": "https://github.com/Asif1105/Chandelier-Animation#readme"
+  "homepage": "https://github.com/Asif1105/Chandelier-Animation#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
 }
